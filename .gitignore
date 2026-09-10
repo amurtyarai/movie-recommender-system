@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Agents / Antigravity
+.agents/
+
+# Large model and data files (regenerate with generate_model.py)
+model/similarity.pkl
+data/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
